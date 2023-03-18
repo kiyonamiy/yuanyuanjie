@@ -13,14 +13,12 @@
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "sourceMap": true,
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "rootDir": ".",
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ]
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["./src", "./types"],
   "compileOnSave": false
