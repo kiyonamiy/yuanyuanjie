@@ -1,0 +1,30 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.search-container {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+  background: #e6e1e3;
+}
+
+.list-container {
+  flex-grow: 1;
+  background: #f1f1f1;
+  overflow: scroll;
+  padding: 50rpx 20rpx 50rpx 20rpx;
+  .list-item-container {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-bottom: 50rpx;
+    border: 1rpx solid gray;
+    background: #ffffff;
+  }
+}

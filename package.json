@@ -27,7 +27,7 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
-    "json-server": "json-server --watch __json_server_mock__/db.json",
+    "json-server": "json-server --watch __json_server_mock__/db.json --port 3001",
     "prepare": "husky install"
   },
   "browserslist": [
